@@ -1,4 +1,10 @@
-# Welcome to Eidolon - an Open Source Agent Services Framework 
+# Welcome to Eidolon - an Open Source Agent Service SDK
+
+[![PyPI - Downloads](https://img.shields.io/pypi/v/eidolon-ai-sdk?style=flat&label=eidolon-ai-sdk)](https://pypistats.org/packages/eidolon-ai-sdk)
+[![PyPI - Downloads](https://img.shields.io/pypi/v/eidolon-ai-sdk?style=flat&label=eidolon-ai-client)](https://pypistats.org/packages/eidolon-ai-client)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/eidolon-ai-sdk)](https://pypistats.org/packages/eidolon-ai-sdk)
+[![Tests - Status](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon/test.yml?style=flat&label=test)](https://github.com/eidolon-ai/eidolon/actions/workflows/test.yml?query=branch%3Amain)
+
 
 Eidolon helps developers designing and deploying agent-based services.
 
@@ -17,86 +23,13 @@ etc or just define your own.
 This means no vendor lock-in and minimizes the work needed to upgrade portions of an agent. Without this flexibility, 
 developers will not be able to adapt their agents to the rapidly changing AI landscape.
 
-## Demo
-[Deploy a Chatbot: Help Swifties learn about Kelce](https://www.youtube.com/watch?v=jU_HYhWm6qE)
+## Next Steps
+⭐️ Star the [Source Code](https://github.com/eidolon-ai/eidolon)
 
+🚀 Get started with the [Quickstart Guide](https://www.eidolonai.com/docs/prereq/)
 
-# Getting Started
+🔎 Vist Eidolon's [Website](https://eidolonai.com/)
 
-## Step 0: Prerequisites
-
-* [Python 3.11](https://formulae.brew.sh/formula/python@3.11)
-* [OpenAI api key](https://platform.openai.com/account/api-keys): You should have an envar OPENAI_API_KEY set to your OpenAI api key.
-
-## Step 1: Install Eidolon SDK
-
-First, you need to install the Eidolon SDK. Open your terminal and run the following command:
-
-```bash
-pip install eidolon-ai-sdk
-```
-
-## Step 2: Create an Agent
-
-Now it is time to create your first **AgentProgram**. Create a directory and add a yaml file to describe your resource.
-
-```bash
-mkdir hello_world
-vim hello_world/hello_world_agent.yaml
-```
-
-```yaml
-apiVersion: eidolon/v1
-kind: Agent
-metadata:
-  name: hello_world
-spec:
-  description: "This is an example of a generic agent which greets people by name."
-  system_prompt: "You are a friendly greeter who greets people by name while using emojis"
-  actions:
-    - user_prompt: "Hi, my name is {{name}}"
-```
-
-## Step 3: Run Eidolon Server
-
-Finally, open a new terminal window and run your machine using eidolon-server.
-
-```bash
-eidolon-server -m local_dev hello_world
-```
-🚨 Getting `command not found: eidolon-server`? Open a new terminal window and try the command again.
-
-⚠️ The `-m local_dev` option specifies using the `local_dev` builtin Machine resource. This machine uses in-memory symbolic memory rather than mongo, so state will disappear between server restarts.
-
-## Step 4: Try it out!
-
-First create a process for your conversation.
-
-```bash
-curl -X POST http://0.0.0.0:8080/agents/hello_world/processes; echo
-````
-
-The result should be a json object with a process id. For example:
-
-```json
-{"process_id":"hello_world-1"}
-```
-
-Now let's try to make a request to your server from another terminal window.
-
-```bash
-curl -X POST http://0.0.0.0:8080/agents/hello_world/processes/{process_id}/actions/converse -H 'Content-Type: application/json' -d '{"name": "World"}'; echo
-```
-
-Replace `{process_id}` with the process id you received from the previous command.
-
-You should now see something like `Hello, World! 🌍👋`
-
-And that's it! You have successfully set up and used a basic project using the Eidolon SDK. To see more endpoints on your agent machine, visit the [swagger ui](http://0.0.0.0:8080/docs).
-
-## Further Reading
-
-For full documentation, visit [www.eidolonai.com](https://www.eidolonai.com/).
 
 ## Contributing
 
