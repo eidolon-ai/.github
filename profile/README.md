@@ -26,7 +26,7 @@ developers will not be able to adapt their agents to the rapidly changing AI lan
 ## Next Steps
 ⭐️ Star the [Source Code](https://github.com/eidolon-ai/eidolon)
 
-🚀 Get started with the [Quickstart Guide](https://www.eidolonai.com/docs/prereq/)
+🚀 Get started with the [Quickstart Guide](https://www.eidolonai.com/docs/quickstart)
 
 🔎 Vist Eidolon's [Website](https://eidolonai.com/)
 
