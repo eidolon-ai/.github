@@ -11,7 +11,6 @@
 [![git-search test](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon-git-search/test.yml?label=git-search+test)](https://github.com/eidolon-ai/eidolon-git-search)
 [![chatbot test](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon-chatbot/test.yml?label=chatbot+test)](https://github.com/eidolon-ai/eidolon-chatbot)
 [![web-researcher test](https://img.shields.io/github/actions/workflow/status/eidolon-ai/web-researcher/test.yml?label=web-researcher+test)](https://github.com/eidolon-ai/web-researcher)
-
 [![agent-machine sync](https://img.shields.io/github/actions/workflow/status/eidolon-ai/agent-machine/update.yml?label=agent-machine+sync)](https://github.com/eidolon-ai/agent-machine)
 [![quickstart sync](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon-quickstart/update.yml?label=quickstart+sync)](https://github.com/eidolon-ai/eidolon-quickstart)
 [![s3-rag sync](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon-s3-rag/update.yml?label=s3-rag+sync)](https://github.com/eidolon-ai/eidolon-s3-rag)
