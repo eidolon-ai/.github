@@ -1,4 +1,4 @@
-# Welcome to Eidolon - an Open Source Agent Service SDK
+ # Welcome to Eidolon - an Open Source Agent Service SDK
  
 [![PyPI](https://img.shields.io/pypi/v/eidolon-ai-sdk?style=flat&label=eidolon-ai-sdk)](https://pypi.org/project/eidolon-ai-sdk/)
 [![PyPI](https://img.shields.io/pypi/v/eidolon-ai-client?style=flat&label=eidolon-ai-client)](https://pypi.org/project/eidolon-ai-client/)
