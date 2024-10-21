@@ -1,9 +1,9 @@
 # Welcome to Eidolon - an Open Source Agent Service SDK
  
+[![Tests - Status](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon/test_python.yml?style=flat&label=eidolon)](https://github.com/eidolon-ai/eidolon)
 [![PyPI](https://img.shields.io/pypi/v/eidolon-ai-sdk?style=flat&label=eidolon-ai-sdk)](https://pypi.org/project/eidolon-ai-sdk/)
 [![PyPI](https://img.shields.io/pypi/v/eidolon-ai-client?style=flat&label=eidolon-ai-client)](https://pypi.org/project/eidolon-ai-client/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/eidolon-ai-sdk)](https://pypistats.org/packages/eidolon-ai-sdk)
-[![Tests - Status](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon/test_python.yml?style=flat&label=test)](https://github.com/eidolon-ai/eidolon/actions/workflows/test_python.yml?query=branch%3Amain)
 
 | Status | agent-machine | eidolon-quickstart | eidolon-s3-rag | eidolon-git-search | eidolon-chatbot | web-researcher | azure-llm | github-assistant |
 |--------|---------------|-------------------|----------------|-------------------|-----------------|----------------|-----------|------------------|
