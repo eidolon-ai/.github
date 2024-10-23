@@ -3,7 +3,8 @@
 [![Tests - Status](https://img.shields.io/github/actions/workflow/status/eidolon-ai/eidolon/test_python.yml?style=flat&label=eidolon)](https://github.com/eidolon-ai/eidolon)
 [![PyPI](https://img.shields.io/pypi/v/eidolon-ai-sdk?style=flat&label=eidolon-ai-sdk)](https://pypi.org/project/eidolon-ai-sdk/)
 [![PyPI](https://img.shields.io/pypi/v/eidolon-ai-client?style=flat&label=eidolon-ai-client)](https://pypi.org/project/eidolon-ai-client/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/eidolon-ai-sdk)](https://pypistats.org/packages/eidolon-ai-sdk)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/eidolon-ai-sdk?color=blue)](https://pypistats.org/packages/eidolon-ai-sdk)
+[![GitHub - Stars](https://img.shields.io/github/stars/eidolon-ai/eidolon?style=flat&color=blue)](https://github.com/eidolon-ai/eidolon)
 
 | Status | agent-machine | eidolon-quickstart | eidolon-s3-rag | eidolon-git-search | eidolon-chatbot | web-researcher | azure-llm | github-assistant |
 |--------|---------------|-------------------|----------------|-------------------|-----------------|----------------|-----------|------------------|
