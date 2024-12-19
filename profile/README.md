@@ -43,4 +43,6 @@ We welcome and appreciate contributions!
 Reach out to us on [discord](https://discord.gg/6kVQrHpeqG) if you have
 any questions or suggestions.
 
+We maintain a list of [good first issues](https://github.com/orgs/eidolon-ai/projects/6/views/6) for new contributors. We try to make these issues self contained, but again, stop by discord with questions or ask them directly on the issue.
+
 If you need help with the mechanics of contributing, check out the [First Contributions Repository](https://github.com/firstcontributions/first-contributions). 
